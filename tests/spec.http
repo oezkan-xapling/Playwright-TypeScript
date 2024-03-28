@@ -1,0 +1,17 @@
+@api=https://reqres.in
+
+###
+
+GET {{api}}/api/users/2  HTTP/1.1
+
+###
+POST {{api}}/api/users HTTP/1.1
+
+### Update
+PUT {{api}}/api/users/2 HTTP/1.1
+
+###
+DELETE {{api}}/api/users/2 HTTP/1.1
+
+
+
